@@ -22,7 +22,7 @@ class ServicioVehiculos {
 
             await this.DB.Open(sql, [Placa, Id_TipoVehiculoNumber,Modelo,Id_MarcaNumber,Id_TarifaNumber,Disponible,Year,Url], true);
 
-            return ('Guardado Exitosamente  ')
+            return ('Guardado Exitosamente')
         }
 
         catch (err) {
