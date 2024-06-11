@@ -11,7 +11,7 @@ class ServicioTarifas {
 
             await this.DB.Open(sql, [Nombre, Precio,ValorDia,Disponible], true);
 
-            return ('Guardado Exitosamente')
+            return ('Guardado Exitosamente  ')
         }
 
         catch (err) {
