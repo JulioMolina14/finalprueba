@@ -16,7 +16,7 @@ class ServicioCargos {
 
         catch (err) {
             console.error(err);
-            return ('Guardado errado en cargos revisa');
+            return ('Guardado errado ');
         }
 
     }
