@@ -18,4 +18,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Se necesita para obtener información de la PR, si la hay
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
