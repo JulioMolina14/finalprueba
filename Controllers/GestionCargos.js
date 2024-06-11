@@ -11,7 +11,7 @@ class ServicioCargos {
 
             await this.DB.Open(sql, [Nombre,Administracion,Disponible], true);
 
-            return ('Guardado Exitosamente')
+            return ('Guardado Exitosamente ss')
         }
 
         catch (err) {
